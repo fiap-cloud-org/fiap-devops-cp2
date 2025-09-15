@@ -42,7 +42,7 @@ public class DemoApplication {
                 <style>
                     body {
                         font-family: Arial, sans-serif;
-                        background: linear-gradient(to right, #1e3c72, #2a5298);
+                        background: linear-gradient(to right, #cc4e14ff, #2a5298);
                         color: #fff;
                         text-align: center;
                         padding: 50px;
