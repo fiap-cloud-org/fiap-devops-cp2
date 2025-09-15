@@ -72,7 +72,7 @@ public class DemoApplication {
                 </style>
             </head>
             <body>
-                <h1> Aplicação Spring Boot no Kubernetes!</h1>
+                <h1> Aplicação TESTANDO ARGO-CD no Kubernetes!</h1>
                 <h2>Rodando no <span class="badge">OKE</span> com <span class="badge">ArgoCD</span></h2>
                 <h2> Entrega Contínua na <b>Oracle Cloud Infrastructure</b></h2>
                 <footer>&copy; 2025 | DevOps - Java + Kubernetes + ArgoCD</footer>
