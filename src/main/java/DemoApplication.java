@@ -1,24 +1,3 @@
-// package com.example.demo;
-
-// import org.springframework.boot.SpringApplication;
-// import org.springframework.boot.autoconfigure.SpringBootApplication;
-// import org.springframework.web.bind.annotation.GetMapping;
-// import org.springframework.web.bind.annotation.RestController;
-
-// @SpringBootApplication
-// @RestController
-// public class DemoApplication {
-
-//     @GetMapping("/")
-//     public String hello() {
-//         return "Hello from Spring Boot!! Oracle Java Day!! v500";
-//     }
-
-//     public static void main(String[] args) {
-//         SpringApplication.run(DemoApplication.class, args);
-//     }
-// }
-
 package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
@@ -72,7 +51,7 @@ public class DemoApplication {
                 </style>
             </head>
             <body>
-                <h1> Aplicação TESTANDO ARGO-CD no Kubernetes!</h1>
+                <h1> Aplicação no Kubernetes usando ArgoCD!</h1>
                 <h2>Rodando no <span class="badge">OKE</span> com <span class="badge">ArgoCD</span></h2>
                 <h2> Entrega Contínua na <b>Oracle Cloud Infrastructure</b></h2>
                 <footer>&copy; 2025 | DevOps - Java + Kubernetes + ArgoCD</footer>
