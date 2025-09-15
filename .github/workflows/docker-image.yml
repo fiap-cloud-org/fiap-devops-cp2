@@ -40,4 +40,4 @@ jobs:
           git config --global user.name "GitHub Actions"
           git add deploy/deployment.yaml
           git commit -m "Update deployment to SHA ${IMAGE_TAG}" || echo "Sem mudanças para commit"
-          git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/willtechdev/java-sample-app-arm.git HEAD:main
+          git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/willtechdev/java-sample-app-arm-v2.git HEAD:main
