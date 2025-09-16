@@ -51,7 +51,7 @@ public class DemoApplication {
                 </style>
             </head>
             <body>
-                <h1> Aplicação no Kubernetes usando ArgoCD!</h1>
+                <h1> Aula de CI/CD com OKE na OCI </h1>
                 <h2>Rodando no <span class="badge">OKE</span> com <span class="badge">ArgoCD</span></h2>
                 <h2> Entrega Contínua na <b>Oracle Cloud Infrastructure</b></h2>
                 <footer>&copy; 2025 | DevOps - Java + Kubernetes + ArgoCD</footer>
