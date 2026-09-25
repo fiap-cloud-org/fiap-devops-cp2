@@ -34,7 +34,7 @@ Cada imagem publicada recebe como tag o **SHA do commit** que a gerou. O própri
 |---|---|
 | Gatilho | `push` na branch `main` |
 | Build | `mvn -B package` com JDK 17 (Temurin) |
-| Imagem | `docker build` e `docker push` para `william201192/java-sample-app:<SHA>` |
+| Imagem | `docker build` e `docker push` para `willtechdev/fiap-devops-cp2:<SHA>` |
 | Manifesto | Gera `deploy/deployment.yaml` a partir do `deployment-template.yaml` e faz o commit da nova tag |
 | Deploy | ArgoCD detecta o commit e sincroniza o cluster |
 
@@ -97,7 +97,7 @@ Em uma validação end-to-end, uma alteração no código enviada para a `main` 
 Pontos principais de validação:
 
 - workflow **CI Pipeline** concluído com sucesso no GitHub Actions;
-- imagem `william201192/java-sample-app:<SHA>` publicada no Docker Hub;
+- imagem `willtechdev/fiap-devops-cp2:<SHA>` publicada no Docker Hub;
 - commit automático do `deploy/deployment.yaml` com a nova tag;
 - aplicação **Synced** e **Healthy** na interface do ArgoCD;
 - 4 pods em execução (`kubectl get pods`);
