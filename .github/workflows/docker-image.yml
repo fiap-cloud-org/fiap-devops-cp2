@@ -28,10 +28,10 @@ jobs:
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
       - name: Build da imagem
-        run: docker build -t william201192/java-sample-app:${{ github.sha }} .
+        run: docker build -t willtechdev/fiap-devops-cp2:${{ github.sha }} .
 
       - name: Push da imagem
-        run: docker push william201192/java-sample-app:${{ github.sha }}
+        run: docker push willtechdev/fiap-devops-cp2:${{ github.sha }}
 
       - name: Update k8s Manifest
         env:
