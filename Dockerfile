@@ -1,5 +1,5 @@
-# Use a base image with OpenJDK
-FROM openjdk:17-jdk-slim
+# Base image: Eclipse Temurin (substitui a imagem openjdk, descontinuada)
+FROM eclipse-temurin:17-jre
 
 # Expose the port the app runs on
 EXPOSE 8080
