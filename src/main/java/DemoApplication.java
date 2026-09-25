@@ -68,10 +68,6 @@ public class DemoApplication {
                         margin: 8px 0;
                         font-size: 1.1em;
                     }
-                    .professor {
-                        margin-top: 20px;
-                        font-style: italic;
-                    }
                     footer {
                         margin-top: 30px;
                         font-size: 0.9em;
