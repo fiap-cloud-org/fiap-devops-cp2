@@ -15,7 +15,7 @@ spec:
       containers:
         - name: java-app
           # enter the path to your image, be sure to include the correct region prefix
-          image: william201192/java-sample-app:ce8c6f7d7247dfa20aa34a7a0650aaebc81cd35e
+          image: william201192/java-sample-app:bf29993bcdf2f9d00f7510d5b0055a1e0eecdf35
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
