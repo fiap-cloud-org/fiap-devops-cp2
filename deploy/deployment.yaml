@@ -15,7 +15,7 @@ spec:
       containers:
         - name: java-app
           # enter the path to your image, be sure to include the correct region prefix
-          image: willtechdev/fiap-devops-cp2:b1363a36c89e00f8eac702df0874396b9e10bdd8
+          image: willtechdev/fiap-devops-cp2:480fd2b07b4ea7c81cfe8919e4e5269ba161c9fa
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
