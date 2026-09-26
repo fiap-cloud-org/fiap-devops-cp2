@@ -3,11 +3,13 @@
 </h1>
 
 <p align="center">
-  <img src="docs/arch.gif" alt="Arquitetura de CI/CD com GitHub Actions, Docker Hub e ArgoCD no OKE" />
+  <img src="docs/arch.gif" alt="CI no GitHub Actions com imagem no Docker Hub e CD com ArgoCD aplicando o deployment no cluster OKE, exposto pelo NGINX Ingress" />
 </p>
 
 <p align="center">
-  <img src="docs/stack.svg" alt="Java, Spring Boot, Maven, Docker, GitHub Actions, ArgoCD, Kubernetes, Oracle Cloud e NGINX" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,spring,maven,docker,githubactions,kubernetes,nginx" alt="Stacks" />
+  </a>
 </p>
 
 ## Qual a finalidade do projeto?
@@ -69,8 +71,7 @@ fiap-devops-cp2/
 ├── deploy/
 │   └── deployment.yaml          # Manifestos gerados pelo CI e lidos pelo ArgoCD
 ├── docs/
-│   ├── arch.gif                 # Diagrama animado da arquitetura
-│   └── stack.svg                # Ícones das tecnologias
+│   └── arch.gif                 # Diagrama animado da arquitetura
 ├── src/main/java/
 │   └── DemoApplication.java     # Aplicação Spring Boot
 ├── deployment-template.yaml     # Deployment, Service e Ingress com o placeholder ${IMAGE_TAG}
@@ -105,4 +106,4 @@ Pontos principais de validação:
 
 ## Autor
 
-**William Alves Coelho** · [@willtechdev](https://github.com/willtechdev)
+**William Alves Coelho** · RM 556336 · [@willtechdev](https://github.com/willtechdev)
