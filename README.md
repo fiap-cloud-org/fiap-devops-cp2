@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="docs/arch.gif" alt="CI no GitHub Actions com imagem no Docker Hub e CD com ArgoCD aplicando o deployment no cluster OKE, exposto pelo NGINX Ingress" />
+  <img src="docs/arch-gitops.gif" alt="CI no GitHub Actions com imagem no Docker Hub e CD com ArgoCD aplicando o deployment no cluster OKE, exposto pelo NGINX Ingress" />
 </p>
 
 <p align="center">
